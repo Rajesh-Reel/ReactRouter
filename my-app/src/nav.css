@@ -1,0 +1,15 @@
+.navbar {
+    height: 5vh;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar-contents {
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem calc((100vw - 1000px) / 2)
+}
